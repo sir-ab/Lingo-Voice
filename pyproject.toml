@@ -7,7 +7,11 @@ authors = [
 ]
 readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "AGPL-3.0-or-later OR Commercial"}
 dependencies = [
+    "transformers>=4.35.0",
+    "torch>=2.0.0",
+    "streamlit>=1.28.0",
 ]
 
 
